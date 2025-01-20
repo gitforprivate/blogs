@@ -5,7 +5,7 @@ import sidebar from "./sideData";
 export default defineConfig({
   title: "My Blogs",
   description: "Record everything",
-  base: "/blogs",
+  base: "/blogs/",
   head: [["link", { rel: "icon", href: "/blogs/favicon.ico" }]],
   // md文档放置的地方
   srcDir: "./docs",

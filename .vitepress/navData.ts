@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 const navData = [
   {
     text: "前端",
@@ -53,6 +55,10 @@ const navData = [
         ],
       },
     ],
+  },
+  {
+    text: "项目",
+    link: "/projects/index",
   },
 ];
 export default navData;
