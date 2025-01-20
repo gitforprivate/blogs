@@ -5,6 +5,9 @@ export default defineConfig({
   title: "My Blogs",
   description: "Record everything",
   base: "/blogs",
+  head: [["link", { rel: "icon", href: "/blogs/favicon.ico" }]],
+  // md文档放置的地方
+  srcDir: "./docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -34,5 +37,7 @@ export default defineConfig({
         indexName: "",
       },
     },
+
+    logo: "/doraemon.png",
   },
 });
