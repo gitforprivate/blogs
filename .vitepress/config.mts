@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "My Blogs",
   description: "Record everything",
+  base: "/blogs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
