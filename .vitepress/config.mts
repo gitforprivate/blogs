@@ -10,6 +10,7 @@ export default defineConfig({
   srcDir: "./docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    siteTitle: false,
     nav: [
       { text: "Home", link: "/" },
       { text: "Examples", link: "/markdown-examples" },
