@@ -60,5 +60,9 @@ const navData = [
     text: "项目",
     link: "/projects/index",
   },
+  {
+    text: "面试",
+    link: "/interview/index",
+  },
 ];
 export default navData;

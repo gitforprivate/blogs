@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export default {
   "/frontend/css": [
     {
@@ -132,6 +134,17 @@ export default {
     {
       text: "前端安全目录",
       link: "/frontend/safe/index",
+    },
+  ],
+  "/interview": [
+    {
+      text: "面试复盘",
+      items: [
+        {
+          text: "公司A",
+          link: "公司B",
+        },
+      ],
     },
   ],
 };
