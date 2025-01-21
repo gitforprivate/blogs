@@ -141,8 +141,8 @@ export default {
       text: "面试复盘",
       items: [
         {
-          text: "公司A",
-          link: "/interview/index",
+          text: "前端面试基本信息",
+          link: "/interview/001",
         },
       ],
     },
