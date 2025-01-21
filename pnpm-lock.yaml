@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@algolia/client-search':
+        specifier: ^5.19.0
+        version: 5.19.0
       algoliasearch:
         specifier: ^5.19.0
         version: 5.19.0
