@@ -130,10 +130,10 @@ export default {
       ],
     },
   ],
-  "/frontend/safe": [
+  "/frontend/other/safe": [
     {
       text: "前端安全目录",
-      link: "/frontend/safe/index",
+      link: "/frontend/other/safe/index",
     },
   ],
   "/interview": [
