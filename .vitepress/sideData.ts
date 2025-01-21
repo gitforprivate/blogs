@@ -142,7 +142,7 @@ export default {
       items: [
         {
           text: "公司A",
-          link: "公司B",
+          link: "/interview/index",
         },
       ],
     },
