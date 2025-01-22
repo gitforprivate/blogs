@@ -20,7 +20,12 @@ export default defineConfig({
     ],
 
     search: {
-      provider: "local",
+      provider: "algolia",
+      options: {
+        appId: "U4P4BYB619",
+        apiKey: "3594d30fcd796aadf2df9838929e6302",
+        indexName: "gitforprivateio",
+      },
     },
 
     logo: "/doraemon.png",
